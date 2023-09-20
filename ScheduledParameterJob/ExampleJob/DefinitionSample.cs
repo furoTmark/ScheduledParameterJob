@@ -4,6 +4,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using EPiServer.Core;
 using EPiServer.Web.WebControls;
+using ScheduledParameterJob.Parameters;
 using Calendar = System.Web.UI.WebControls.Calendar;
 
 namespace ScheduledParameterJob.ExampleJob

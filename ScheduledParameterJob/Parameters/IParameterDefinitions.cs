@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Web.UI;
 
-namespace ScheduledParameterJob
+namespace ScheduledParameterJob.Parameters
 {
     public interface IParameterDefinitions
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using EPiServer.Data.Dynamic;
 
-namespace ScheduledParameterJob
+namespace ScheduledParameterJob.Parameters
 {
     [EPiServerDataStore(
         StoreName = "ScheduledJobParameters",

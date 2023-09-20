@@ -6,6 +6,7 @@ using EPiServer.Data.Dynamic;
 using EPiServer.DataAbstraction;
 using EPiServer.PlugIn;
 using ScheduledParameterJob.Extensions;
+using ScheduledParameterJob.Parameters;
 
 namespace ScheduledParameterJob.ExampleJob
 {

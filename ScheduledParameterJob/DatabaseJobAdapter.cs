@@ -11,6 +11,7 @@ using EPiServer.PlugIn;
 using EPiServer.Shell.WebForms;
 using EPiServer.UI.Admin;
 using ScheduledParameterJob.Extensions;
+using ScheduledParameterJob.Parameters;
 
 [assembly: WebResource("ScheduledParameterJob.Style.JobParameters.css", "text/css")]
 namespace ScheduledParameterJob
