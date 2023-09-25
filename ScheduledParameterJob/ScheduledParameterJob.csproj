@@ -180,6 +180,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)ScheduledParameterJob.Package\lib\$(ProjectName).dll"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)ScheduledParameterJob.Package\lib\net48\$(ProjectName).dll"</PostBuildEvent>
   </PropertyGroup>
 </Project>

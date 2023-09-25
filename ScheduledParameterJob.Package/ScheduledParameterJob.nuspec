@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ScheduledParameterJob.Opitimizely.v11</id>
+    <version>1.2.0.0</version>
+    <title>ScheduledParameterJob for Optimizely v11</title>
+    <authors>Furó Tamás-Márk</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/furoTmark/ScheduledParameterJob</projectUrl>
+    <description>This package adds the possibility to put any type of input control on the EPiServer (v.11) scheduled job interface, store the value and then use it while running the scheduled job. Values are persisted in the EPiServer DynmicDataStore and controls are inserted via an attribute and a definitions class. Example job is available through the GitHub link on the Project Information page. This package uses Episerver version 11 with .NET Framework 4.8</description>
+    <releaseNotes>Fixed dependencies from original package. Added minor fixes.</releaseNotes>
+    <copyright>Copyright Furó Tamás-Márk©  2023</copyright>
+    <tags>Optimizely Episerver ScheduledJob Parameter</tags>
+    <readme>docs/readme.md</readme>
+    <dependencies>
+		<group targetFramework=".NETFramework4.8" >
+			<!-- EPiServer, EPiServer.UI -->
+			<dependency id="EPiServer.CMS.Core" version="11.0" />
+			<!-- EPiServer.Data -->
+			<dependency id="EPiServer.Framework" version="11.0" />
+		</group>
+	</dependencies>
+  </metadata>
+</package>

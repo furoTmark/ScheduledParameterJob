@@ -5,6 +5,23 @@ VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledParameterJob", "ScheduledParameterJob\ScheduledParameterJob.csproj", "{02CA8F3C-8A3B-43D1-9DE1-230382C04155}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduledParameterJob.Package", "ScheduledParameterJob.Package", "{0930C7DD-CE79-4BEF-BDD0-BC911746F9A0}"
+	ProjectSection(SolutionItems) = preProject
+		ScheduledParameterJob.Package\ScheduledParameterJob.nuspec = ScheduledParameterJob.Package\ScheduledParameterJob.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{1DC826ED-C402-425B-B820-1F55C650D841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Browsers", "App_Browsers", "{E10CAC4E-55F5-4C9F-88ED-245AFD55C302}"
+	ProjectSection(SolutionItems) = preProject
+		ScheduledParameterJob.Package\content\App_Browsers\ScheduledParameterJobAdapterMappings.browser = ScheduledParameterJob.Package\content\App_Browsers\ScheduledParameterJobAdapterMappings.browser
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2435C65A-76A7-4C4D-9C49-ADEF6D391E80}"
+	ProjectSection(SolutionItems) = preProject
+		ScheduledParameterJob.Package\docs\readme.md = ScheduledParameterJob.Package\docs\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +35,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DC826ED-C402-425B-B820-1F55C650D841} = {0930C7DD-CE79-4BEF-BDD0-BC911746F9A0}
+		{E10CAC4E-55F5-4C9F-88ED-245AFD55C302} = {1DC826ED-C402-425B-B820-1F55C650D841}
+		{2435C65A-76A7-4C4D-9C49-ADEF6D391E80} = {0930C7DD-CE79-4BEF-BDD0-BC911746F9A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90FF41B8-B992-499C-AA06-14940A969279}
