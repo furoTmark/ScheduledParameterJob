@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ScheduledParameterJob")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This package adds the possibility to put any type of input control on the EPiServer (v.11) scheduled job interface, store the value and then use it while running the scheduled job. Values are persisted in the EPiServer DynmicDataStore and controls are inserted via an attribute and a definitions class. Example job is available through the GitHub link on the Project Information page. This package uses Episerver version 11 with .NET Framework 4.8")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Furó Tamás-Márk")]
 [assembly: AssemblyProduct("ScheduledParameterJob")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright Furó Tamás-Márk©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]

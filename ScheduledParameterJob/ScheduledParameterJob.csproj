@@ -178,6 +178,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Style\JobParameters.css" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)ScheduledParameterJob.Package\lib\$(ProjectName).dll"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
